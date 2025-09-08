@@ -23,7 +23,6 @@ const fakeCart = [
     totalPrice: 15,
   },
 ];
-
 function Cart() {
   const cart = fakeCart;
 
