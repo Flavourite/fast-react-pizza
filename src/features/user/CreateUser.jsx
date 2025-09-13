@@ -14,8 +14,8 @@ function CreateUser() {
       <input
         type="text"
         placeholder="Your full name"
-        value={username}
         onChange={(e) => setUsername(e.target.value)}
+        value={username}
       />
 
       {username !== '' && (
