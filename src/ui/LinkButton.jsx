@@ -6,7 +6,7 @@ function LinkButton({ children, to }) {
 
   if (to === '-1')
     return (
-      <Link to={to} className={baseStyle} onClick={() => navigate(-1)}>
+      <Link className={baseStyle} onClick={() => navigate(-1)}>
         {children}
       </Link>
     );

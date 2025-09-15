@@ -10,6 +10,8 @@ function Error() {
       <p>{error.data || error.message}</p>
 
       <LinkButton to="-1">&larr; Go back</LinkButton>
+
+      {/* <button onClick={() => navigate(-1)}>&larr; Go back</button> */}
     </div>
   );
 }
