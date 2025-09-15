@@ -40,6 +40,11 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path: '*',
+    element: <Error />,
+    errorElement: <Error />,
+  },
 ]);
 
 function App() {
